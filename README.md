@@ -13,4 +13,6 @@ For example, during the night in-game, you must enter 1 to check cameras, enter 
 3. Extract the files into a folder
 4. Run 'FNAF.exe' to start playing (enjoy! :D)
 
-❗ If there are any problems with installation on macOS or Linux then uhh yeah idk how to fix that :(
+## Potential Problems ❗
+- The two text files that this game uses may not have their contents displayed when playing the game.
+- The game probably won't work on macOS or Linux. That's an assumption, really.
