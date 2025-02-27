@@ -14,5 +14,5 @@ For example, during the night in-game, you must enter 1 to check cameras, enter 
 4. Run 'FNAF.exe' to start playing (enjoy! :D)
 
 ## Potential Problems ❗
-- The two text files that this game uses may not have their contents displayed when playing the game.
+- The two text files that this game uses may not have their contents displayed when playing the game. These files can be found in 'FNAF/text/'. They are named 'gameMechanics.txt' and 'map.txt'
 - The game probably won't work on macOS or Linux. That's an assumption, really.
