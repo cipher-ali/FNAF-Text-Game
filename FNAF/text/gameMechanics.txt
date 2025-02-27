@@ -1,0 +1,39 @@
+ACTIONS: Open/Close doors, turn on/off lights, and check the cameras for the animatronics (or do nothing!)
+Actions can be completed by selecting numbered options during the night.
+When an action is in progress, there is an option to cancel the action.
+Cancelling the action prevents the night from progressing.
+Specifally, animatronics won't move, battery doesn't get wasted, and the time won't pass.
+This is useful if you chose an option by accident. Though, you should still think carefully before choosing.
+
+BATTERY: The battery power starts out at 100%.
+Reaching 0% will result in a violent scene between you and Freddy (the main animatronic).
+
+DOORS: Close a door when an animatronic is there.
+Having one door closed consumes 4% battery power.
+
+LIGHTS: Turning on a light allows you to easily see if an animatronic is at a door.
+You will be told if an animatronic is near or has left an office door after each completed action.
+You will also be shown a countdown for when the animatronics will attempt to attack.
+Having one light on consumes 3% battery power.
+
+CAMERAS: There are 11 total cameras, and each one can be viewed.
+The most essential cameras are 8 and 11, since they show which animatronics are at your doors.
+When you check a camera after the first time, the camera that was chosen previously will be checked first.
+Viewing the cameras does not decrease power.
+
+TIME: Your shift starts at 12 AM. You must survive until 6 AM.
+After each completed action (including doing nothing), 15 minutes will pass.
+The time will update every 60 minutes.
+
+ANIMATRONICS: The 4 classic animatronics are here, and they are Freddy, Bonnie, Chica, and Foxy.
+All animatronics except Foxy start at the Stage (Camera #1). Foxy starts at Pirate Cove (Camera #2).
+Freddy can go to the left or right door. Bonnie can only go to the left door. Chica can only go to the right door.
+An animatronic will also move faster the higher their AI level is.
+An animatronic will also give you less time to close the door on time the higher their AI level is.
+Animatronics won't move at all if their AI level is at 0.
+
+FOXY: Foxy is quite different than the other animatronics.
+He will try to enter the office through the left door.
+You must check the camera that he is currently in to send him back to his cove.
+Spotting Foxy on the previously checked camera won't send him back.
+If Foxy has reached the door, he will instantly kill you. Closing the door won't stop him.
