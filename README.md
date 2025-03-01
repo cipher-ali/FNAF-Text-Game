@@ -1,7 +1,7 @@
 # FNAF-Text-Game
 
 Just like in the original FNAF game, you play as a night-shift security guard.
-You manage power and survive the "friendly" animatronics until 6 AM.
+You manage power and survive the animatronics until 6 AM.
 
 ## Controls 🎮
 When given a prompt, you must enter one of the numbers shown to do a task
