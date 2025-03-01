@@ -12,7 +12,8 @@ For example, during the night in-game, you must enter 1 to check cameras, enter 
 2. Download 'FNAF_Text_Game.zip' 
 3. Extract the files into a folder
 4. Run 'FNAF.exe' to start playing (enjoy! :D)
-(Hopefully it works on macOS and Linux)
+### Note ❗
+You may get a warning saying that the file may be harmful. Just ignore it.
 
 ## Feedback 🗣️
 I'm not exactly sure if my code is that great (what exactly makes code "good" anyway?), so I'd really appreciate any suggestions to improve it! :)
