@@ -6,6 +6,7 @@ You manage power and survive the animatronics until 6 AM.
 ## Controls 🎮
 When given a prompt, you must enter one of the numbers shown to do a task
 For example, during the night in-game, you must enter 1 to check cameras, enter 2 to open/doors, etc.
+When checking the cameras, if you want to check a single-digit camera number, just type the number without the 0 in front.
 
 ## Installation 🔧
 1. Choose a version under 'Releases'
