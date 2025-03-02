@@ -26,9 +26,6 @@ void Night::start()
 	OutputDelay::println("The night has begun...");
 	Pause::pauseForMiliseconds(500);
 
-	// This is used to prevent the player from abusing the 'Do Nothing' option (with both doors closed)
-	// on nights with low animatronic AI levels
-	int doNothingAmount{ 0 };
 	CamNumber previousCameraChecked{ 0 };
 
 	int iteration{ 1 };
@@ -48,7 +45,7 @@ void Night::start()
 			OutputDelay::println("You decide to quit working here and search for another job.");
 			Pause::pauseForSeconds(1);
 			OutputDelay::println("YAAAY!", 100);
-			std::exit(0);
+			std::cin.get();
 		}
 
 		Office::checkDoorsForAnimatronics();
@@ -194,7 +191,6 @@ void Night::start()
 		}
 		case 4: // Nothing
 			didPlayerAct = true;
-			++doNothingAmount;
 			break;
 		}
 
@@ -242,7 +238,7 @@ void Night::setup()
 			Line::display();
 			break;
 		case 4:
-			std::exit(0);
+			std::cin.get();
 		}
 	}
 }
@@ -366,7 +362,7 @@ void Night::updateState(bool wasFoxyCheckedOn)
 		OutputDelay::println("You are barely breathing, and the animatronics take you to stuff you in an animatronic suit.");
 		Pause::pauseForMiliseconds(500);
 		OutputDelay::println("GAME OVER!", 100);
-		std::exit(0);
+		std::cin.get();
 	}
 
 	GameTime::update();
