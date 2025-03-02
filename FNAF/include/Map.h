@@ -25,7 +25,7 @@ namespace Map
 	{
 		// The map looks fine when viewed in Notepad and in the text game
 		// But it looks terrible when viewed in Visual Studio
-		TextFiles::displayTextFromFile("text/map.txt");
+		TextFiles::displayTextFromFile("map.txt");
 	}
 }
 
