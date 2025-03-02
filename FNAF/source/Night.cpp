@@ -238,7 +238,7 @@ void Night::setup()
 			break;
 		case 3:
 			Line::display();
-			TextFiles::displayTextFromFile("text/gameMechanics.txt");
+			TextFiles::displayTextFromFile("gameMechanics.txt");
 			Line::display();
 			break;
 		case 4:
