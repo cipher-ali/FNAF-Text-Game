@@ -46,6 +46,7 @@ void Night::start()
 			Pause::pauseForSeconds(1);
 			OutputDelay::println("YAAAY!", 100);
 			std::cin.get();
+			std::exit(0);
 		}
 
 		Office::checkDoorsForAnimatronics();
@@ -238,7 +239,7 @@ void Night::setup()
 			Line::display();
 			break;
 		case 4:
-			std::cin.get();
+			std::exit(0);
 		}
 	}
 }
@@ -363,6 +364,7 @@ void Night::updateState(bool wasFoxyCheckedOn)
 		Pause::pauseForMiliseconds(500);
 		OutputDelay::println("GAME OVER!", 100);
 		std::cin.get();
+		std::exit(0);
 	}
 
 	GameTime::update();
