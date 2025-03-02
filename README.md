@@ -14,7 +14,7 @@ For example, during the night in-game, you must enter 1 to check cameras, enter 
 4. Run 'FNAF.exe' to start playing (enjoy! :D)
 ### Notes ❗
 - Do NOT download 'Source Code (zip)' or 'Source Code (tar.gz)' if you're just looking to play the game. These are for developers.
-- You may get a warning saying that the file may be harmful. Just ignore it.
+- You may get a warning saying that the file may be harmful. Just ignore it. I have no idea how to prevent the warning.
 
 ## Feedback 🗣️
 I'm not exactly sure if my code is that great, so I'd really appreciate any suggestions to improve it! :)
